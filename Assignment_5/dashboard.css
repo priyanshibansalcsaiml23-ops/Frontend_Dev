@@ -1,0 +1,65 @@
+/* Fixed header at top */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  z-index: 1000;
+}
+
+/* Flex layout for sidebar and main */
+.container {
+  display: flex;
+  margin-top: 60px;
+  min-height: 100vh;
+}
+
+/* Sidebar styling */
+aside {
+  width: 200px;
+  background: #f4f4f4;
+  padding: 1rem;
+}
+
+/* Navigation links */
+aside nav a {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Main content area */
+main {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Content boxes */
+.box {
+  flex: 1 1 45%;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Responsive sidebar stacking */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  main {
+    flex-direction: column;
+  }
+}

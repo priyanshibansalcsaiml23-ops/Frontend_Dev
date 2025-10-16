@@ -1,0 +1,32 @@
+body {
+  background: #fefefe;
+  padding: 40px;
+  font-family: Georgia, serif;
+}
+
+/* Multi-column layout */
+.news {
+  column-count: 3;
+  column-gap: 30px;
+  text-align: justify;
+}
+
+/* Heading spans all columns */
+h1 {
+  column-span: all;
+  font-size: 2em;
+  text-align: center;
+}
+
+/* Floating image */
+.float-img {
+  float: left;
+  width: 150px;
+  margin: 10px 20px 10px 0;
+  border-radius: 8px;
+}
+
+/* Highlighted keywords */
+mark {
+  background-color: #ffeb3b;
+}

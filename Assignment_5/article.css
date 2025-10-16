@@ -1,0 +1,32 @@
+body {
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Style first letter and first line */
+p::first-letter {
+  font-size: 2em;
+  color: #00796b;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+/* Custom mark styling */
+mark {
+  background-color: #ffe082;
+}
+
+/* Blockquote styling */
+blockquote {
+  border-left: 4px solid #00796b;
+  background-color: #e0f2f1;
+  padding: 10px;
+  font-style: italic;
+}

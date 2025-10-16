@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* Sticky header */
+header {
+  position: sticky;
+  top: 0;
+  background: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav a {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero section with background image */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('hero.jpg') center/cover;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* About section with two columns */
+.about {
+  display: flex;
+  padding: 40px;
+  gap: 20px;
+}
+
+.about img {
+  width: 200px;
+  border: 2px solid #ccc;
+}
+
+/* Services section with three boxes */
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.service {
+  padding: 20px;
+  border: 1px solid #ccc;
+  outline: 2px dashed #0077cc;
+  width: 30%;
+  text-align: center;
+}
+
+/* Contact form */
+.contact {
+  padding: 40px;
+  background: #f4f4f4;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  background: #0077cc;
+  color: white;
+  border: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+}
