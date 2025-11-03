@@ -1,0 +1,35 @@
+body {
+  font-family: 'Georgia', serif;
+  margin: 40px;
+  background: #f9f9f9;
+}
+
+.text-block {
+  line-height: 1.8;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+mark {
+  background-color: yellow;
+  color: black;
+}
+
+strong {
+  color: darkred;
+}
+
+em {
+  color: teal;
+}
+
+/* Pseudo-elements */
+.styled::first-letter {
+  font-size: 2em;
+  color: blue;
+}
+
+.styled::first-line {
+  font-weight: bold;
+  text-transform: uppercase;
+}

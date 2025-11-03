@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f0f0f0;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: 2px solid transparent;
+  outline-offset: 4px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  transition: outline-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  outline-color: #3498db;
+}

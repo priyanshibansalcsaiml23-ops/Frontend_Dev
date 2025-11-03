@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f0f0f0;
+}
+
+header h1 {
+  text-align: center;
+  text-shadow: 2px 2px 4px gray;
+}
+
+.card-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  width: 200px;
+  height: 150px;
+  background: white;
+  border-radius: 10px;
+  transition: box-shadow 0.4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Different shadow styles */
+.shadow1 { box-shadow: 2px 2px 5px rgba(0,0,0,0.3); }
+.shadow2 { box-shadow: 4px 4px 10px rgba(0,0,0,0.4); }
+.shadow3 { box-shadow: 6px 6px 15px rgba(0,0,0,0.5); }
+
+/* Hover lift effect */
+.card:hover {
+  box-shadow: 10px 10px 25px rgba(0,0,0,0.6);
+}
