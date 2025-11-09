@@ -1,0 +1,9 @@
+/* Hover effect for product cards */
+.transition {
+  transition: transform 0.3s ease;
+}
+
+.transition:hover {
+  transform: scale(1.05);
+}
+/* Button styling */    

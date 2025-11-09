@@ -1,0 +1,10 @@
+/* Optional styling for carousel images */
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  padding: 10px;
+  border-radius: 5px;
+}

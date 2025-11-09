@@ -1,0 +1,18 @@
+/* Custom spacing and layout tweaks */
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+form input,
+form textarea {
+  max-width: 500px;
+  margin: 0 auto;
+}
+button {
+  background-color: #007bff;
+  color: white;
+
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}       
