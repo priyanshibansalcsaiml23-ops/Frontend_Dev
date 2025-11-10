@@ -1,97 +1,124 @@
-# Frontend_Dev
+#  Frontend Development Course
 
-### **Lecture 1-2: Introduction to Web Development**
-**Topics:**
-- Fundamentals of Web Architecture  
-- 3-Tier Structure: Frontend, Backend, Database  
-- Setting up **VS Code** and **Live Server**
-
+Welcome to the **Frontend Development Learning Repository**!  
+This repository contains all lectures, notes, and practice tasks from the course — starting with **HTML** and advancing through **CSS**, **Responsive Design**, and **Bootstrap**.
 
 ---
 
-### **Lecture 3-5: HTML Basics**
-**Topics:**
-- HTML Structure, Tags, and Elements  
-- Semantic HTML  
-- Lists, Links, Headings, Paragraphs, Images  
+##  Course Progress Log
 
-**📘 Assignments:**
-- Submission: *Intro to Web Development*  
-- Submission: *HTML Basics*
+### 🧭 Day 1 – Getting Started with Web Development
+**Date:** 09/10/2025  
+**Focus:** Web Architecture & Basic HTML  
 
----
+**Learned:**
+- Frontend, Backend, and Database basics  
+- How websites work (localhost, IP, ports)  
+- Installed **VS Code** and **Live Server**  
+- Practiced HTML tags and structure  
 
-### **Lecture 6-7: HTML Block and Inline Elements**
-**Topics:**
-- Block vs Inline Elements  
-- Attributes, Headings, Paragraphs, Tables  
-- Dropdowns, Lists, Quotations, and Layout  
-- HTML Forms and Input Types  
-- `<marquee>` tag demonstration  
+**Task:**  
+> Create a timetable webpage using `<table>` and preview it using Live Server.
 
 ---
 
-### **Lecture 8-10: HTML Iframes**
-**Topics:**
-- Iframes and URI Concepts  
-- HTML Head, Charset, and Entities  
-- Embedding external content  
-- HTML Form Elements and Security Concepts  
+###  Day 2 – Advanced HTML & Forms
+**Date:** 10/10/2025  
+**Focus:** HTML Elements & Layouts  
+
+**Learned:**
+- Block vs Inline elements  
+- Lists, tables, and quotations  
+- HTML attributes and dropdowns  
+- Form elements and input types  
+
+**Task:**  
+> Build a registration form with text, email, password, and checkbox fields.
 
 ---
 
-### **Lecture 11-13: Introduction to CSS**
-**Topics:**
-- CSS Syntax & Types (Inline, Internal, External)  
-- CSS Selectors  
-- Colors, Backgrounds, and Box Model  
-- Units (`px`, `em`, `rem`, `%`)  
-- Layout & Element Positioning  
-- `box-sizing`, Inline vs Block Elements  
+###  Day 3 – Introduction to CSS
+**Date:** 13/10/2025  
+**Focus:** CSS Basics & Styling  
 
-**🧩 Task:**
-> Design a simple webpage using internal and external CSS.  
-> Apply background colors, margins, padding, and element positioning.
+**Learned:**
+- CSS syntax and usage (inline, internal, external)  
+- Selectors, colors, and text formatting  
+- The Box Model (margin, border, padding)  
+- Display types and positioning  
 
----
-
-### **Lecture 14-15: CSS Flexbox and Grid**
-**Topics:**
-- Flexbox and Grid Basics  
-- CSS Transformations & Animations  
-- Layout Practice with Flex and Grid  
-
-**🧩 Task:**
-> Create a **Calculator Layout** using **CSS Grid**.
+**Task:**  
+> Design a simple webpage using internal & external CSS for layout and colors.
 
 ---
 
-### **Lecture 16-18: CSS Model and Transformations**
-**Topics:**
-- Borders, Padding, Height/Width  
-- Gradients, Shadows, Selectors  
-- Typography, Outline, and Transitions  
-- Navigation Bars and CSS Combinators  
+###  Day 4 – CSS Layouts (Flexbox & Grid)
+**Date:** 30/10/2025  
+**Focus:** Layout Techniques  
+
+**Learned:**
+- Flexbox and Grid systems  
+- Gradients, shadows, and transforms  
+- Pseudo-classes and combinators  
+
+**Task:**  
+> Create a **Calculator Layout** using CSS Grid.
 
 ---
 
-### **Lecture 19-21: CSS Classes and UI Design**
-**Topics:**
-- Pseudo-classes, Tooltips, and Animations  
-- Transitions & Transform Properties  
-- Buttons and User Interface Design  
-- Box Sizing and Image Styling  
+### ⚡ Day 5 – CSS Animations & Transitions
+**Date:** 31/10/2025  
+**Focus:** Motion & Interaction  
 
-**🧩 Task:**
-> Create an animation that moves an element diagonally using transition and transform.
+**Learned:**
+- Pseudo-classes (hover, focus, active)  
+- Tooltips, transitions, and transforms  
+- Animation basics and box-sizing  
+
+**Task:**  
+> Animate a box that moves diagonally using `transition` and `transform`.
+
+---
+
+###  Day 6 – Responsive Web Design
+**Date:** 03/11/2025  
+**Focus:** Media Queries & Filters  
+
+**Learned:**
+- Principles of responsive design  
+- CSS filters for visual effects  
+- Media queries and flexible units (% / vh / vw / rem)  
+
+**Task:**  
+> Create a responsive card that adapts to screen size and changes color on hover.
 
 ---
 
-### **Lecture 22-24: Responsive CSS**
-**Topics:**
-- Filters and Responsive Design  
-- Media Queries  
-- Making layouts adaptable for different screen sizes  
-- Responsive Design Cheat Sheet  
+###  Day 7 – Introduction to Bootstrap
+**Date:** 05/11/2025  
+**Focus:** Bootstrap Grid System  
+
+**Learned:**
+- Bootstrap containers, rows, and columns  
+- 12-column grid system  
+- Utility classes for spacing and alignment  
+
+**Task:**  
+> Build a responsive portfolio layout using Bootstrap grid system.
 
 ---
+
+###  Day 8 – Bootstrap Components & Review
+**Date:** 06/11/2025  
+**Focus:** Components and Review  
+
+**Learned:**
+- Carousels, Progress Bars, Buttons  
+- Combined Bootstrap with custom CSS  
+- Responsive design recap  
+
+**Task:**  
+> Create a portfolio page with a carousel and progress bars.
+
+---
+
