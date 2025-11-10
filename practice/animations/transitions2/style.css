@@ -1,0 +1,21 @@
+.parent{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+
+button{
+    color:white;
+    background-color: blue;
+    height:50px;
+    width:100px;
+    border-radius:10px;
+    border:none;
+    
+}
+
+button:active{
+    transform: scale(3.5) translate(190px) rotate(180deg);
+    transition:5s;
+}

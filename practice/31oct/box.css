@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.parent{
+    display:flex;
+    justify-content:center;  
+    align-items:center;
+    height:500px;
+    width:500px;
+    border:1px solid black;
+    flex-wrap: wrap;
+
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    transition: all 1s ease;
+    border-radius: 10px;
+}
+
+.box1{
+    background-color:red;
+}
+
+.box2{
+    background-color:rgb(0, 64, 255);
+}
+
+.box3{
+    background-color:rgb(255, 0, 204);
+}
+
+.box4{
+    background-color:rgb(255, 247, 0);
+}
+
+.box1:hover{                                     /* // it is used to give the effect when we hover the mouse on the box */
+    background-color:black;                    /* transform: rotate(360deg);  // it is used to rotate the box */
+    transform:translateY(-300px, -300px);        /* // it is used to give the transition effect */
+    border: 5px solid green;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 3s;                    /* // it  is used to give the time duration for the transition */
+    transition-timing-function: ease-in-out;
+}
+
+.box2:hover{                                     /* // it is used to give the effect when we hover the mouse on the box */
+    background-color:black;                    /* transform: rotate(360deg);  // it is used to rotate the box */
+    transform:translateY(300px, -300px);        /* // it is used to give the transition effect */
+    border: 5px solid green;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 3s;                    /* // it  is used to give the time duration for the transition */
+    transition-timing-function: ease-in-out;
+}
+
+.box3:hover{                                     /* // it is used to give the effect when we hover the mouse on the box */
+    background-color:black;                    /* transform: rotate(360deg);  // it is used to rotate the box */
+    transform:translateY(-300px, 300px);        /* // it is used to give the transition effect */
+    border: 5px solid green;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 3s;                    /* // it  is used to give the time duration for the transition */
+    transition-timing-function: ease-in-out;
+}
+
+.box4:hover{                                     /* // it is used to give the effect when we hover the mouse on the box */
+    background-color:black;                    /* transform: rotate(360deg);  // it is used to rotate the box */
+    transform:translateY(300px, 300px);        /* // it is used to give the transition effect */
+    border: 5px solid green;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 3s;                    /* // it  is used to give the time duration for the transition */
+    transition-timing-function: ease-in-out;
+}

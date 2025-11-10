@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+  }
+  
+  /* Hover box styling */
+  .hover-box {
+    background-color: red;
+    color: white;
+    padding: 20px 40px;
+    border: 2px solid darkred;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  
+  /* Tooltip styling with grid */
+  .tooltip {
+    display: grid;
+    place-items: center;
+    background-color: white;
+    color: black;
+    border: 2px solid darkgreen;
+    padding: 15px 30px;
+    font-size: 1rem;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }Hover over me
+  
+  
+  /* Show tooltip on hover */
+  .container:hover .tooltip {
+    opacity: 1;
+    transform: translateY(0);
+  }

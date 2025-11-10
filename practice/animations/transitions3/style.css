@@ -1,0 +1,31 @@
+.container {
+    position: relative;
+    margin: 100px;
+    
+}
+
+.tooltip {
+    position: absolute;
+    top: -70px;
+    left: 0;
+    background: #f57c73;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 22px;
+    display: none;
+}
+
+
+.hover-box {
+    border: 3px solid #dd6b65;
+    font-size: 28px;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+}
+
+
+.container:hover .tooltip {
+    display: block;
+}

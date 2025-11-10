@@ -1,0 +1,47 @@
+*{
+    background-color: beige;
+}
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* gap: 20px; */
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.box1, .box2, .box3, .box4 {
+    height: 50px;
+    width: 50px;
+    border-radius:10px;
+    padding: 20px;
+    transition: transform 0.2s ease ;
+    background-color: aquamarine;
+}
+
+.parent:hover .box1 {
+    transform: translate(-150px, -150px);
+    
+}
+
+.parent:hover .box2 {
+    transform: translate(-150px, 150px);
+}
+
+.parent:hover .box3 {
+    transform: translate(150px, -150px);
+}
+
+.parent:hover .box4 {
+    transform: translate(150px, 150px);
+}
+
+.parent:hover .box1,
+.parent:hover .box2,
+.parent:hover .box3,
+.parent:hover .box4 {
+    background:linear-gradient(pink,white);
+}
+

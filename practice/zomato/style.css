@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    background-color: #fafafa;
+    color: #333;
+  }
+  
+  /* NAVBAR */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    font-size: 28px;
+    color: #e23744;
+    font-weight: 700;
+  }
+  
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .nav-left input {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 350px;
+  }
+  
+  .nav-right a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    margin-left: 25px;
+  }
+  
+  /* TABS */
+  .tabs {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 25px;
+    gap: 60px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #666;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    color: #e23744;
+  }
+  
+  .tab img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  /* COLLECTIONS SECTION */
+  .collections {
+    padding: 50px 100px;
+  }
+  
+  .collections-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .collections-header h2 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  .collections-header a {
+    color: #e23744;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .subtitle {
+    color: #666;
+    margin-top: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .collection-cards {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+  
+  .card {
+    min-width: 270px;
+    height: 340px;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover img {
+    transform: scale(1.05);
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+  }
+  
+  .overlay h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .overlay p {
+    font-size: 14px;
+  }
+  
+  /* FILTERS */
+  .filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    background: #fff;
+    padding: 25px 0;
+    border-top: 1px solid #eee;
+  }
+  
+  .filters button {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #444;
+    transition: background 0.2s;
+  }
+  
+  .filters button:hover {
+    background: #f5f5f5;
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      gap: 10px;
+      padding: 20px;
+    }
+  
+    .nav-left input {
+      width: 100%;
+    }
+  
+    .tabs {
+      gap: 30px;
+    }
+  
+    .collections {
+      padding: 30px;
+    }
+  
+    .collection-cards {
+      gap: 12px;
+    }
+  
+    .card {
+      min-width: 220px;
+      height: 300px;
+    }
+  }
