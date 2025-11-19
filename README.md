@@ -122,6 +122,63 @@ This repository contains all lectures, notes, and practice tasks from the course
 **Task:**  
 > Create a portfolio page with a carousel and progress bars.
 
+
 ---
+### Day 9 – Introduction to JavaScript  
+**Date:** 10/11/2025  
+**Focus:** Fundamentals of JavaScript  
+
+**Learned:**  
+- JavaScript Types and Operators  
+- Logical Operators and Math operations  
+- Control Structures (if, loops, etc.)  
+- Practical examples of flow control  
+
+**Task:**  
+> Review pending exercises and practice fundamentals to strengthen core understanding.
+---
+
+### Day 10 – Scope, Events, Strings, Arrays  
+**Date:** 12/11/2025  
+**Focus:** Variable Scope and Data Handling  
+
+**Learned:**  
+- Scope and variable visibility  
+- Event handling in JavaScript  
+- String manipulation techniques  
+- Array operations with practical examples  
+
+**Task:**  
+> Complete exercises on scope, events, strings, and arrays. Prepare for ES Features session.
+---
+
+### Day 11 – JavaScript ES Features & DOM  
+**Date:** 13/11/2025  
+**Focus:** Modern JavaScript Features  
+
+**Learned:**  
+- DOM manipulation basics  
+- Hoisting behavior in JavaScript  
+- Functions and Arrow Functions  
+- Built a Counter Application using DOM  
+- Implemented Image Resize with DOM  
+
+**Task:**  
+> Practice DOM-based applications and review ES Features thoroughly.
+---
+
+### Day 12– JavaScript ES Classes & Objects  
+**Date:** 17/11/2025  
+**Focus:** Classes and Object-Oriented Concepts  
+
+**Learned:**  
+- ES6 Classes and Objects  
+- Recap of Hoisting and Functions  
+- Responsive design task: Hamburger icon with media queries  
+- Sidebar menu implementation  
+
+**Task:**  
+> Build forms and explore JavaScript RegExp for input validation in upcoming session.
+
 
 
