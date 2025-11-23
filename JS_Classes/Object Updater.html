@@ -1,0 +1,40 @@
+<!-- dynamicUpdater.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Object Updater</title>
+</head>
+<body>
+    <form id="updateForm">
+        <input type="text" id="name" placeholder="Name"><br>
+        <input type="text" id="email" placeholder="Email"><br>
+        <input type="number" id="age" placeholder="Age"><br>
+        <button type="submit">Update</button>
+    </form>
+
+    <h3>Updated User Object:</h3>
+    <pre id="output"></pre>
+
+    <script>
+        let user = { name: "John", email: "john@mail.com", age: 21 };
+
+        const form = document.getElementById("updateForm");
+        const output = document.getElementById("output");
+
+        // Display initial user object
+        output.textContent = JSON.stringify(user, null, 2);
+
+        form.addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            // Update object with form values
+            user.name = document.getElementById("name").value || user.name;
+            user.email = document.getElementById("email").value || user.email;
+            user.age = document.getElementById("age").value || user.age;
+
+            // Show updated object
+            output.textContent = JSON.stringify(user, null, 2);
+        });
+    </script>
+</body>
+</html>
