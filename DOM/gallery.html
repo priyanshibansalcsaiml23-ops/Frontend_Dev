@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Gallery</title>
+  <style>
+    .gallery img { width: 150px; margin: 5px; cursor: pointer; }
+    .modal { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.7); }
+    .modal-content { margin:10% auto; width:60%; background:#fff; }
+    .modal-content img { width:100%; }
+  </style>
+</head>
+<body>
+  <h2>Gallery</h2>
+  <div class="gallery" id="gallery">
+    <img src="https://images.unsplash.com/photo-1685713292778-3abfc203a542?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="1">
+    <img src="https://www.viewbug.com/media/mediafiles/2016/05/20/66132464_medium.jpg" alt="2">
+    <img src="https://www.viewbug.com/media/mediafiles/2014/05/17/21104201_large.jpg" alt="3">
+    
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <img id="modalImg" src="">
+    </div>
+  </div>
+
+  <script src="gallery.js"></script>
+</body>
+</html>

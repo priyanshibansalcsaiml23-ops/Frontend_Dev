@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Validation</title>
+  <style>
+    form { max-width: 400px; margin: 20px auto; font-family: sans-serif; }
+    label { display: block; margin-top: 10px; }
+    input { width: 100%; padding: 6px; margin-top: 4px; }
+    .error { color: red; font-size: 0.9em; }
+    .success { color: green; font-weight: bold; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h2>Form Submit Blocker</h2>
+  <form id="myForm">
+    <label>Name:
+      <input type="text" id="name" />
+      <div id="errorName" class="error"></div>
+    </label>
+
+    <label>Email:
+      <input type="email" id="email" />
+      <div id="errorEmail" class="error"></div>
+    </label>
+
+    <label>Password:
+      <input type="password" id="password" />
+      <div id="errorPassword" class="error"></div>
+    </label>
+
+    <button type="submit">Submit</button>
+    <div id="successMsg" class="success"></div>
+  </form>
+
+  <script src="form.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Dropdown</title>
+  <style>
+    .dropdown { position:relative; display:inline-block; }
+    .options { display:none; position:absolute; background:#fff; border:1px solid #ccc; }
+    .options div { padding:8px; cursor:pointer; }
+    .options div:hover { background:#eee; }
+  </style>
+</head>
+<body>
+  <h2>Custom Dropdown</h2>
+  <div class="dropdown" id="dropdown">
+    <button id="dropBtn">Select Option</button>
+    <div class="options" id="options">
+      <div>Option 1</div>
+      <div>Option 2</div>
+      <div>Option 3</div>
+    </div>
+  </div>
+  <script src="dropdown.js"></script>
+</body>
+</html>
